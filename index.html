@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="app-container">
+
+        <!-- Sidebar -->
+        <div class="side-bar">
+            <img src="img/placeholder_image.jpg" id="website-icon" alt="Website Icon">
+            <button class="side-bar-icons">
+                <img src="img/placeholder_image.jpg" alt="Weather Details Icon">
+                <span>Weather</span>
+            </button>
+            <button class="side-bar-icons">
+                <img src="img/placeholder_image.jpg" alt="City Searched Icon">
+                <span>Cities</span>
+            </button>
+            <button class="side-bar-icons">
+                <img src="img/placeholder_image.jpg" alt="Settings Icon">
+                <span>Settings</span>
+            </button>        
+        </div>
+
+        <!-- Content Container (Main + 7-Day Forecast) -->
+        <div class="content-container">
+
+            <!-- Main Section -->
+            <div class="main">
+                <!-- Search -->
+                <input type="text" placeholder="Search city">
+
+                <!-- Current Weather Info -->
+                <div class="weather-info">
+                    <div class="text-info">
+                        <h1>CITY</h1>
+                        <span>Chance of rain: 0%</span>
+                        <h1>31°</h1>    
+                    </div>
+                    <img src="img/placeholder_image.jpg" alt="Weather Icon">
+                </div>
+
+                <!-- Today’s Forecast -->
+                <div class="todays-forecast">
+                    
+                    <div class="scroll-wrapper">
+                        <h3>TODAY'S FORECAST</h3>
+                        <div class="forecast-row">
+                        <div class="forecast-block">
+                            <span>6:00 AM</span>
+                            <img src="img/placeholder_image.jpg" alt="Weather Icon">
+                            <span>25°</span>
+                        </div>
+                        <div class="forecast-block">
+                            <span>9:00 AM</span>
+                            <img src="img/placeholder_image.jpg" alt="Weather Icon">
+                            <span>26°</span>
+                        </div>
+                        <div class="forecast-block">
+                            <span>12:00 PM</span>
+                            <img src="img/placeholder_image.jpg" alt="Weather Icon">
+                            <span>28°</span>
+                        </div>
+                        <div class="forecast-block">
+                            <span>12:00 PM</span>
+                            <img src="img/placeholder_image.jpg" alt="Weather Icon">
+                            <span>28°</span>
+                        </div>
+                        <div class="forecast-block">
+                            <span>12:00 PM</span>
+                            <img src="img/placeholder_image.jpg" alt="Weather Icon">
+                            <span>28°</span>
+                        </div>
+                        <div class="forecast-block">
+                            <span>12:00 PM</span>
+                            <img src="img/placeholder_image.jpg" alt="Weather Icon">
+                            <span>28°</span>
+                        </div>
+                        <div class="forecast-block">
+                            <span>3:00 PM</span>
+                            <img src="img/placeholder_image.jpg" alt="Weather Icon">
+                            <span>27°</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seven-Day Forecast -->
+            <div class="seven-day-forecast">
+                <div class="day">
+                    <img src="img/placeholder_image.jpg" alt="Weather Icon">
+                    <div class="day-info">
+                        <span>Monday</span>
+                        <span>Sunny</span>
+                        <span>High: 31° Low: 24°</span>
+                    </div>
+                </div>
+                <div class="day">
+                    <img src="img/placeholder_image.jpg" alt="Weather Icon">
+                    <div class="day-info">
+                        <span>Tuesday</span>
+                        <span>Rainy</span>
+                        <span>High: 30° Low: 23°</span>
+                    </div>
+                </div>
+                <div class="day">
+                    <img src="img/placeholder_image.jpg" alt="Weather Icon">
+                    <div class="day-info">
+                        <span>Wednesday</span>
+                        <span>Cloudy</span>
+                        <span>High: 32° Low: 25°</span>
+                    </div>
+                </div>
+                <div class="day">
+                    <img src="img/placeholder_image.jpg" alt="Weather Icon">
+                    <div class="day-info">
+                        <span>Thursday</span>
+                        <span>Stormy</span>
+                        <span>High: 29° Low: 22°</span>
+                    </div>
+                </div>
+                <div class="day">
+                    <img src="img/placeholder_image.jpg" alt="Weather Icon">
+                    <div class="day-info">
+                        <span>Friday</span>
+                        <span>Sunny</span>
+                        <span>High: 31° Low: 23°</span>
+                    </div>
+                </div>
+                <div class="day">
+                    <img src="img/placeholder_image.jpg" alt="Weather Icon">
+                    <div class="day-info">
+                        <span>Saturday</span>
+                        <span>Rainy</span>
+                        <span>High: 28° Low: 21°</span>
+                    </div>
+                </div>
+                <div class="day">
+                    <img src="img/placeholder_image.jpg" alt="Weather Icon">
+                    <div class="day-info">
+                        <span>Sunday</span>
+                        <span>Cloudy</span>
+                        <span>High: 30° Low: 22°</span>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end content-container -->
+
+    </div> <!-- end app-container -->
+
+    <script src="script.js"></script>
+</body>
+</html>
